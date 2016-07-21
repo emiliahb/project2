@@ -1,0 +1,173 @@
+/*navigation bar*/
+
+nav{
+	text-align: right;
+	background-color: white;
+	width:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	padding:5px;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+#navName{
+	text-align: left;
+	color: #B20000;
+	display: inline;
+}
+
+a{
+	color: black;
+}
+
+a:hover {
+	color:#B20000;
+}
+
+/*shared references*/
+#transbox{
+	background-color: rgba(275,275,275,.6);
+}
+
+/*homepage*/
+#homeBody{
+	/*background-color: #F0F0F0;*/
+	background-size: 100%;
+}
+
+#homeHeaderOne{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 80px;
+}
+
+#circle{
+	margin:0 auto;
+ 	background-color: rgba(178,0,0, .2); 
+ 	a will determine transparency
+ 	border-radius: 100px;
+ 	width:180px;
+ 	height:180px;
+}
+
+#homeHeaderTwo, #homeHeaderThree{
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin-top:50px;
+}
+
+#homeHeaderFour{
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+}
+
+/*contact*/
+#contactBody{
+	background-color: #F0F0F0;
+	font-family:'Lato', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+#contactHeaderOne{
+	font-weight: 300;
+	background-color: rgba(178,0,0, .2);
+	border-radius: 100px;
+ 	width:180px;
+ 	height:180px;
+ 	margin: 0 auto;
+ 	line-height: 180px;
+ 	font-size:60px;
+ 	text-align: center;
+}
+
+#map{
+	margin:0 auto;
+	background-color: rgba(178,0,0, .2);
+	padding:20px;
+	border-radius: 10px
+}
+
+#transbox2{
+	background-color:rgba(275,275,275,.5);
+
+}
+
+/*menu*/
+
+#menuBody{
+	font-family:'Lato', sans-serif;
+	background-color: #F0F0F0;
+}
+
+#menuHeaderOne{
+	font-weight: 300;
+	background-color: rgba(178,0,0, .2);
+	border-radius: 100px;
+ 	width:180px;
+ 	height:180px;
+ 	margin: 0 auto;
+ 	padding: 0 auto;
+ 	line-height: 180px;
+ 	font-size:60px;
+ 	text-align: center;
+}
+
+.item{
+	font-family:'Lato', sans-serif;
+	background-color: rgba(178,0,0, .2);
+	text-align: center;
+	border-radius: 20px;
+	margin-left:50px;
+	display:inline-block;
+	width: 25%;
+	margin:3%;
+	
+}
+
+/*#test{
+	column-count: 3;
+	column-gap: 10px;
+	margin:0 auto;*/
+
+
+#eng{
+	font-size: 20px;
+}
+
+#pol{
+	font-size:18px;
+	color: dimgray;
+}
+
+/*.cOne{
+	display: inline-block;
+	width:25%;
+	margin:3%;
+}
+
+.cTwo{
+	display: inline-block;
+	width:25%;
+	margin:3%;
+}
+
+.cThree{
+	display: inline-block;
+	width:25%;
+	margin:3%;
+}
+
+.cOne .cTwo .cThree{
+	text-align: center;
+}*/
+
+
+
+
+
